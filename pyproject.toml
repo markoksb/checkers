@@ -1,0 +1,9 @@
+[project]
+name = "checkers"
+version = "0.3.0"
+description = "Checkers clone with the help of pygame"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pygame>=2.6.1",
+]
