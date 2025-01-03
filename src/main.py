@@ -9,10 +9,6 @@ WIN = pygame.display.set_mode( (WIDTH, HEIGHT), pygame.SRCALPHA, 32)
 
 pygame.display.set_caption("Checkers")
 
-# TODO:
-# - fix the bug that when there is only one piece left and it has no legal moves,
-# that the game crashes instead of calling a winner
-
 def get_row_col_from_mouse(pos):
     x, y = pos
     row = y // SQUARE_SIZE
